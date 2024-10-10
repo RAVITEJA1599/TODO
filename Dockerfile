@@ -4,7 +4,7 @@ WORKDIR /usr/sre/app
 
 COPY package*.json ./
 
-RUN npn install
+RUN npm install
 
 COPY . .
 
